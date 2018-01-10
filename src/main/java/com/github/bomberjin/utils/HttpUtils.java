@@ -30,6 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+
 public class HttpUtils {
 
     /**
@@ -264,6 +265,14 @@ public class HttpUtils {
         return httpClient.execute(request);
     }
 
+    /**
+     *
+     * @param host
+     * @param path
+     * @param querys
+     * @return
+     * @throws UnsupportedEncodingException
+     */
     private static String buildUrl(String host, String path, Map<String, String> querys) throws UnsupportedEncodingException {
         StringBuilder sbUrl = new StringBuilder();
         sbUrl.append(host);
@@ -295,6 +304,11 @@ public class HttpUtils {
         return sbUrl.toString();
     }
 
+    /**
+     *
+     * @param host
+     * @return
+     */
     private static HttpClient wrapClient(String host) {
         HttpClient httpClient = new DefaultHttpClient();
         if (host.startsWith("https://")) {
@@ -304,6 +318,10 @@ public class HttpUtils {
         return httpClient;
     }
 
+    /**
+     *
+     * @param httpClient
+     */
     private static void sslClient(HttpClient httpClient) {
         try {
             SSLContext ctx = SSLContext.getInstance("TLS");

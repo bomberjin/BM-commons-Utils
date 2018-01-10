@@ -47,6 +47,12 @@ public class SwitchUtil {
             return "";
         return o.toString();
     }
+
+    /**
+     * null to zero
+     * @param o
+     * @return
+     */
     public static String NulltoZero(Object o) {
         if (o == null)
             return "0";
