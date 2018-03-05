@@ -3,7 +3,7 @@ package com.github.bomberjin.utils;
 import java.math.BigDecimal;
 import java.text.NumberFormat;
 
-public class MathUtils {
+public class MathUtil {
     /**
      * 保留两位小数 乘法
      */
