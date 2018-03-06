@@ -1,11 +1,11 @@
 **bmadmin-commons** 是一个java 常用的工具类集合，减少造轮子的过程。
-随着开发项目的增多，会主键增加更多的方法，会增加更多适合国内业务的常用的工具类
+随着开发项目的增多，会逐渐增加更多的实用方法，同时会增加更多适合国内业务的常用的工具类
 
 **maven 地址：**
 
 `<dependency>`  
-`<groupId>com.github.bomberjin</groupId>`
-    `<artifactId>bmadmin-commons</artifactId>`
+`<groupId>com.github.bomberjin</groupId>`   
+`<artifactId>bmadmin-commons</artifactId>`
     `<version>1.1.0</version>`  
     `</dependency>`
 
