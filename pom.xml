@@ -6,7 +6,7 @@
 
     <groupId>com.github.bomberjin</groupId>
     <artifactId>bmadmin-commons</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>commons util for java</description>
